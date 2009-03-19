@@ -2,7 +2,7 @@
 
 require 'fileutils'
 require 'environment'
-require 'sinatra/lib/sinatra'
+require 'sinatra'
 
 get('/') { redirect "/#{HOMEPAGE}" }
 
